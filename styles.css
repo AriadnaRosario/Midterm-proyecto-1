@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f0ff; /* fondo violeta claro */
+  color: #222;
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(135deg, #6a0dad, #b565f2); /* violeta */
+  color: white;
+  padding-bottom: 60px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.logo {
+  font-size: 1.6rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.hero-content {
+  text-align: center;
+  padding: 80px 20px 40px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background: white;
+  color: #6a0dad;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #eee;
+}
+
+.btn-secondary {
+  background: #e0c3fc;
+  color: #6a0dad;
+}
+
+.section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #6a0dad;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(106, 13, 173, 0.2);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #6a0dad;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.card label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.card select,
+.card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.card button,
+.cv-box button {
+  margin-top: 10px;
+  margin-right: 8px;
+  padding: 10px 15px;
+  border: none;
+  background: #6a0dad; /* violeta */
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card button:hover,
+.cv-box button:hover {
+  background: #4b0082; /* violeta oscuro */
+}
+
+.cv-box {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(106, 13, 173, 0.2);
+  text-align: center;
+}
+
+#cv-container {
+  margin-top: 20px;
+  text-align: left;
+}
+
+#cv-container h2,
+#cv-container h3 {
+  margin-bottom: 10px;
+  color: #6a0dad;
+}
+
+#cv-container p,
+#cv-container li {
+  margin-bottom: 8px;
+}
+
+#contact {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.resume-content {
+  background: white;
+  padding: 10px;
+}
+
+#movieList {
+  margin-top: 10px;
+}
+
+#movieList li {
+  margin-bottom: 8px;
+}
+
+#movieList button {
+  margin-left: 5px;
+  padding: 5px 8px;
+  font-size: 12px;
+}
+
+#functionalList {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+#functionalList li {
+  margin-bottom: 8px;
+}
+
+#movieInputs {
+  margin-top: 10px;
+}
+
+#movieInputs input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}

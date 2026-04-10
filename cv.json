@@ -1,0 +1,57 @@
+{
+  name: "Ariadna Rosario Caban",
+  email: "ariadna.rosario@upr.edu",
+  phone: "939-203-3332",
+  location: "Puerto Rico",
+
+  summary: "Hardworking Computer Science student with customer service experience and strong communication, organizational, and problem-solving skills. Ready to contribute and grow in the tech field.",
+
+  education: [
+    {
+      degree: "B.S. Computer Science",
+      school: "University of Puerto Rico - Mayaguez",
+      year: "Expected 2027",
+      show: true
+    }
+  ],
+
+  skills: [
+    { name: "Customer Service", show: true },
+    { name: "POS Systems", show: true },
+    { name: "Cash Handling", show: true },
+    { name: "Sales Techniques", show: true },
+    { name: "Inventory Management", show: true },
+    { name: "C++", show: true },
+    { name: "Python", show: true },
+    { name: "JavaScript", show: true }
+  ],
+
+  languages: [
+    { name: "Spanish - C2 (Proficient)", show: true },
+    { name: "English - Native/Bilingual", show: true }
+  ],
+
+  experience: [
+    {
+      title: "Supermarket Cashier",
+      company: "Nicky's Supermarket",
+      years: "2022 - 2024",
+      description: "Provided efficient cashiering, handled transactions, assisted customers, and supported inventory control.",
+      show: true
+    }
+    {
+      title: "Supermarket Cashier",
+      company: "Econo",
+      years: "2025 - present",
+      description: "Provided efficient cashiering, handled transactions, assisted customers.",
+      show: true
+    }
+  ],
+
+  projects: [
+    {
+      title: "Smart Academic Task Planner",
+      show: true
+    }
+  ],
+}
