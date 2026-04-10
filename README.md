@@ -96,3 +96,4 @@ Open the file `index.html` in any web browser.
 ---
 
 ##  Repository
+Uses logic rules to recommend movies based on the selected genre
