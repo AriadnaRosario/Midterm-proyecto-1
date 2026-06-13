@@ -18,6 +18,9 @@ It includes interactive applications developed using HTML, CSS, and JavaScript.
 **Movie Mood Recommender**  
 Uses conditional logic if/else to recommend movies based on what mood and genre the user selects.
 
+### How to use
+You choose one of the given genre and one of the given mood then hit recommend.
+
 ---
 
 ###  Functional
@@ -25,13 +28,19 @@ Uses conditional logic if/else to recommend movies based on what mood and genre 
 Uses functional programming methods like:
 - filter() → to select movies by genre or rating  
 - map() → to transform movie data  
-- random selection → to display a random movie  
+- random selection → to display a random movie
+
+### How to use
+You choose and hit the given categories 
 
 ---
 
 ###  Logical
 **Movie Genre Recommender**  
 Applies rule-based logic to return movie suggestions based on selected genre
+
+### How to use
+You choose from the given genre and hit get recommendation
 
 ---
 
@@ -44,7 +53,10 @@ Implements classes and objects:
 Allows users to:
 - add movies  
 - mark as watched  
-- delete movies  
+- delete movies
+
+### How to use
+You type the name of a movie and you hit add movie. If you watch the movie you can hit watch and if you want to take the movie off you hit delete.
 
 ---
 
@@ -53,13 +65,19 @@ Allows users to:
 ###  Movie Runtime Planner
 Dynamically generates input fields based on the number of movies and calculates total watch time.
 
+### How to use
+You put the numer of movies you want to watch and you hit creat inputs and then you put how long the movie is in minutes and then you hit calculate total time.
+
 ---
 
 ###  Movie Rating App
 Allows users to:
 - enter a movie name  
 - assign a star rating  
-- display rated movies using star emoji  
+- display rated movies using star emoji
+
+### How to use
+You type a movie name and you choose the rating you give it from 1 to 5 and then hit add rating.
 
 ---
 
@@ -87,6 +105,9 @@ Features:
 3. Select the main branch and /root.
 4. Save the changes.
 5. Open the generated GitHub Pages link in your browser.
+
+### Run locally
+Download the project files and open 'index.html' in the web browser.
 
 ---
 
