@@ -81,7 +81,12 @@ Features:
 ---
 
 ##  How to Run
-Open the file `index.html` in any web browser.
+### Run with GitHub Pages
+1. Go to the repository settings.
+2. Open the *Pages* section.
+3. Select the main branch and /root.
+4. Save the changes.
+5. Open the generated GitHub Pages link in your browser.
 
 ---
 
